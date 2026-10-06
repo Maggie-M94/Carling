@@ -1,0 +1,69 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+body {
+	-epub-hyphens:auto;
+}
+#_idContainer000 {
+	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:746.32px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:799.00px;
+	z-index:0;
+}
+#_idContainer001 {
+	-ms-transform:translate(394.359px,65.850px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(394.359px,65.850px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:10.80px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(394.359px,65.850px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(394.359px,65.850px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:10.80px;
+	z-index:2;
+}
+#_idContainer002 {
+	-ms-transform:translate(394.359px,670.185px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(394.359px,670.185px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:10.80px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(394.359px,670.185px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(394.359px,670.185px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:10.80px;
+	z-index:1;
+}
+#_idContainer003 {
+	display:inline-block;
+	height:746px;
+	position:relative;
+	width:799px;
+}
+div._idGenObjectStyleOverride-1 {
+	background-color:#ffffff;
+	border-width:0px;
+}
+div._idGenObjectLayout-1 {
+	text-align:center;
+}
