@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>CBL Cup | Dashboard</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <script>
+        /* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()
+    </script>
+    </head>
+    <body>
+        <section>
+            <nav class="bg-dark navbar navbar-light py-3 text-uppercase" id="top">
+                <div class="container px-0 px-lg-3">
+                    <button class="btn btn-outline-primary border-0 py-2" type="button" aria-label="search" data-bs-toggle="modal" data-bs-target="#infoModal">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512" preserveAspectRatio id="info-icon">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <style>svg { fill: #d6001c; }</style>
+                            <path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/>
+                        </svg>
+                    </button>                     <a class="fw-bold m-0 navbar-brand text-primary" href="#"><img src="assets/cbl-logo.png" width="90"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-8" aria-controls="navbarNavDropdown-8" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512" preserveAspectRatio id="hamburger-icon">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/>
+                        </svg>
+                    </button>
+                    <div class="collapse navbar-collapse  text-center" id="navbarNavDropdown-8">
+                        <ul class="navbar-nav pt-3">
+                            <li class="nav-item"> <a class="nav-link" href="#">Player voting</a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">Voting leaderboard</a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">First goal picker</a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">Man of the match selection</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="background-img-second container-fluid pb-5 pt-5">
+                <main class="container dashboard py-5">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                            <!-- Heading + intro -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1>Welcome Champ</h1>
+                                    <h3>Manage your lineups before fixture deadline<br>
+                        You can make one prediction per team, per round. </h3>
+                                </div>
+                            </div>
+                            <!-- Fixture deadline -->
+                            <div class="row mb-3">
+                                <div class="col-10 offset-1 col-md-8 offset-md-2">
+                                    <div class="deadline-box">
+                                        <div class="deadline-title">Fixture Deadline</div>
+                                        <div class="deadline-time" id="deadline">14H : 10MIN : 45SEC</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Predict a new team -->
+                            <div class="row mb-4">
+                                <div class="col-12">
+                                    <div class="predict-card" data-bs-toggle="modal" data-bs-target="#predictTeamModal" role="button" tabindex="0" aria-label="Predict a new team">
+                                        <div class="plus-circle" role="button" tabindex="0" aria-label="Predict a new team">+</div>
+                                        <div class="predict-title">Predict a New Team</div>
+                                        <p>1 New Unique Code = 1 Team Prediction</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Action buttons -->
+                            <div class="row g-3 g-md-4 px-2">
+                                <div class="col-6">
+                                    <button type="button" class="btn dash-btn">View Results</button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn dash-btn">Vote Man of the Match</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </section>
+        <!-- player-pos vote modal start -->
+        <section>
+            <div class="fade modal voting" tabindex="-1" id="predictTeamModal" aria-labelledby="predictTeamModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="custom-btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h2 class="modal-title" id="predictTeamModalLabel">PREDICT TEAM</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12 col-md-12 text-center">
+                                    <div class="mb-3">
+                                        <label class="modGeneral">ENTER A VALID UNIQUE CODE TO predict</label>
+                                        <input type="tel" class="form-control" id="uniqueCode" name="uniqueCode" placeholder="unique code" required="true">
+                                    </div>
+                                    <div class="me-2 mt-2 skewed-button-small w-60 w-75">
+                                        <button class="btn fs-6 skewable-small" data-pg-ia>Validate code</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="bg-secondary">
+                            <div class="row">
+                                <div class="col-12 col-md-12 text-center">
+                                    <div class="mb-3">
+                                        <label class="modGeneral">Select team*</label>
+                                        <select id="teamSelect" name="teamSelect" class="form-control" required="true">
+                                            <option value="">select</option>
+                                            <option value="Option1">Option1</option>
+                                            <option value="Option2">Option2</option>
+                                            <option value="Option3">Option3</option>
+                                        </select>
+                                    </div>
+                                    <div class="me-2 mt-2 skewed-button-small w-60 w-75">
+                                        <button class="btn fs-6 skewable-small" data-pg-ia>Submit vote</button>
+                                    </div>
+                                </div>
+                            </div>                             
+                        </div>
+                        <div class="modal-footer">
+</div>
+                    </div>
+                </div>
+            </div>
+            <!-- player-pos vote modal end -->
+        </section>
+        <section>
+            <!-- Red how to vote modal start -->
+            <div class="modal fade" id="howtoPredict" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered modal-sm col-12 col-lg-10 col-md-10 col-sm-12">
+                    <div class="modal-content howto-modal">
+                        <div class="modal-header howto-header">
+                            <h2 class="modal-title-alt w-100 text-center">
+                    HOW TO PREDICT                 </h2>
+                            <button type="button" class="custom-btn-close" data-bs-dismiss="modal" aria-label="Close"> 
+                                X
+</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-11 text-center">
+                                    <p class="howto-intro">
+                            USE YOUR UNIQUE CODE TO PREDICT TEAM PLAYERS INTO
+                            YOUR STARTING 11. </p>
+                                </div>
+                            </div>
+                            <!-- STEP 1 -->
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-10">
+                                    <div class="howto-step">
+                                        <div class="howto-icon">
+                                            <img src="assets/icons/unique-code-icon.svg" alt="Unique code">
+                                        </div>
+                                        <div class="howto-step-text">
+                                            1. ENTER & validate YOUR UNIQUE CODE FOUND ON CAP or underliner of a promotional Carling Black Label
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- STEP 2 -->
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-10">
+                                    <div class="howto-step">
+                                        <div class="howto-icon">
+                                            <img src="assets/icons/search-player-icon.svg" alt="Choose team">
+                                        </div>
+                                        <div class="howto-step-text">
+                                            2. CHOOSE A TEAM
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- STEP 3 -->
+                            <div class="row justify-content-center">
+                                <div class="col-10">
+                                    <div class="howto-step">
+                                        <div class="howto-icon">
+                                            <img src="assets/icons/select-player-pos-icon.svg" alt="Predict players">
+                                        </div>
+                                        <div class="howto-step-text">
+                                            3. PREDICT THE STARTING 11 PLAYERS
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="fade modal modal-top-info" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-content-info">
+                    <div class="modal-header">
+                        <h5 id="infoModalLabel" class="modal-title">HOW TO Predict</h5>
+                    </div>
+                    <div class="">
+                        <p class="predictModal">
+                            LOG IN / REGISTER<br> Pull in, champ! <a>Log in</a> or <a>create</a> an account to get in the game. <br>
+                            PREDICTION <br>Enter your unique code, & choose a team then head to <a>Predictor</a> & select your 11 players. To pick another team you have to use a new code. <br>Your code = your team.  <br>MAN OF THE MATCH Back your baller on Man of the Match: Pick the team, then the player you rate to shine.  <br>TOURNAMENTS View upcoming matches and knockouts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- How to vote modal end -->
+        <section class="footer-sec">
+            <div class="container-fluid footer-content">
+                <div class="row">
+                    <div class="col-1 col-sm-1"> 
+</div>
+                    <div class="col-10 col-lg-12 col-md-12 col-sm-10 pe-0 ps-0">
+                        <div class="navbar-footer">
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="https://www.sab.co.za/agegate?destination=terms-of-use" target="_blank">Rules of the house</a></h6>
+                            </div>
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="https://www.sab.co.za/agegate?destination=terms-of-use" target="_blank">terms of use</a></h6>
+                            </div>
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="https://www.sab.co.za/privacy-policy" target="_blank">privacy policy</a></h6>
+                            </div>
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="https://www.sab.co.za/cookie-policy" target="_blank">cookie policy</a></h6>
+                            </div>
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="#" target="_blank">terms & conditions</a></h6>
+                            </div>
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="https://www.sab.co.za/agegate?destination=terms-of-use" target="_blank">Data subject request</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1 col-sm-1"> 
+</div>
+                </div>
+                <hr>
+                <div class="pb-4 row">
+                    <div class="col col-lg col-md col-sm"> 
+</div>
+                    <div class="col-10 col-lg-5 col-md-5 col-sm-10">
+                        <img src="assets/ara-line.png" alt="ara-line" class="ara"> 
+                    </div>
+                    <div class="col col-lg col-md col-sm"> 
+</div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="bg-color left"></div>                     
+                    <div class="center"></div>                     
+                    <div class="bg-color right"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script>
+    window.addEventListener('load', function () {
+        const howToModal = new bootstrap.Modal(
+            document.getElementById('howtoPredict')
+        );
+
+        howToModal.show();
+    });
+</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="pgia/lib/pgia.js"></script>
+    </body>
+</html>

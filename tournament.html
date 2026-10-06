@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>CBL Cup | Tournament</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png"/>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <script>
+        /* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()
+    </script>
+    </head>
+    <body>
+        <section>
+            <nav class="bg-dark navbar navbar-light py-3 text-uppercase" id="top">
+                <div class="container px-0 px-lg-3">
+                    <button class="btn btn-outline-primary border-0 py-2" type="button" aria-label="search" data-bs-toggle="modal" data-bs-target="#infoModal">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512" preserveAspectRatio id="info-icon">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <style>svg { fill: #d6001c; }</style>
+                            <path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/>
+                        </svg>
+                    </button>                     <a class="fw-bold m-0 navbar-brand text-primary" href="#"><img src="assets/cbl-logo.png" width="90"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-8" aria-controls="navbarNavDropdown-8" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512" preserveAspectRatio id="hamburger-icon">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/>
+                        </svg>
+                    </button>
+                    <div class="collapse navbar-collapse  text-center" id="navbarNavDropdown-8">
+                        <ul class="navbar-nav pt-3">
+                            <li class="nav-item"> <a class="nav-link" href="#">Player voting</a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">Voting leaderboard</a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">First goal picker</a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="#">Man of the match selection</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="background-img-second container-fluid pb-5 pt-5">
+                <section class="tournament-section py-5">
+                    <div class="container">
+                        <!-- Heading -->
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-12 col-md-10 col-lg-8 text-center">
+                                <h1>CBL ROAD TO GLORY</h1>
+                            </div>
+                        </div>
+                        <!-- ======================================
+             ROUND OF 16
+        ======================================= -->
+                        <div class="row justify-content-center mb-3">
+                            <div class="col-12 col-md-10 col-lg-8">
+                                <div class="round-card">
+                                    <!-- Card Header -->
+                                    <div class="row align-items-center round-header g-0">
+                                        <div class="col-5 col-lg-5 round-label"><span>
+                                ROUND OF 16 </span>
+                                        </div>
+                                        <div class="col-7 text-end"><span class="round-date">
+                                13 OCT - 15 NOV 2026 </span>
+                                        </div>
+                                    </div>
+                                    <!-- MATCH 1 -->
+                                    <div class="row align-items-center match-row">
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    <img src="assets/team-1-logo.png" alt="Team 1" class="team-logo">
+                                                </div><span class="team-status through">
+                                    THROUGH </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="match-score">
+                                                2 - 1
+</div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    <img src="assets/team-1-logo.png" alt="Team 1" class="team-logo">
+                                                </div><span class="team-status knocked">
+                                    KNOCKED OUT </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- MATCH 2 -->
+                                    <div class="row align-items-center match-row">
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    <img src="assets/team-1-logo.png" alt="Team 1" class="team-logo">
+                                                </div><span class="team-status knocked">
+                                    KNOCKED OUT </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="match-score">
+                                                0 - 1
+</div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    <img src="assets/team-1-logo.png" alt="Team " class="team-logo">
+                                                </div><span class="team-status through">
+                                    THROUGH </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- MATCH 3 -->
+                                    <div class="row align-items-center match-row">
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    <img src="assets/team-1-logo.png" alt="Team 1" class="team-logo">
+                                                </div><span class="team-status through">
+                                    THROUGH </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="match-score">
+                                                3 - 2
+</div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    <img src="assets/team-1-logo.png" alt="Team 2" class="team-logo">
+                                                </div><span class="team-status knocked">
+                                    KNOCKED OUT </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- View All -->
+                                    <div class="row justify-content-center mt-2">
+                                        <div class="col-7 col-sm-6 col-md-5">
+                                            <div class="me-2 skewed-button-large">
+                                                <button class="btn skewable-large">VIEW ALL</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ======================================
+             QUARTER FINALS
+        ======================================= -->
+                        <div class="row justify-content-center mb-3">
+                            <div class="col-12 col-md-10 col-lg-8">
+                                <div class="round-card">
+                                    <!-- Header -->
+                                    <div class="row align-items-center round-header g-0">
+                                        <div class="col-5 col-lg-5 round-label"><span class="">
+                                QUARTER-FINALS </span>
+                                        </div>
+                                        <div class="col-7 text-end"><span class="round-date">
+                                24 NOV - 06 DEC 2026 </span>
+                                        </div>
+                                    </div>
+                                    <!-- Match -->
+                                    <div class="row align-items-center match-row">
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    <img src="assets/team-1-logo.png" alt="Team 1" class="team-logo">
+                                                </div><span class="team-status through">
+                                    THROUGH </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="match-score">
+                                                2 - 1
+</div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    TEAM 2
+</div><span class="team-status knocked">
+                                    KNOCKED OUT </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- View All -->
+                                    <div class="row justify-content-center">
+                                        <div class="col-7 col-sm-6 col-md-5">
+                                            <div class="me-2 skewed-button-large">
+                                                <button class="btn skewable-large">VIEW ALL</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ======================================
+             SEMI FINALS
+        ======================================= -->
+                        <div class="row justify-content-center mb-3">
+                            <div class="col-12 col-md-10 col-lg-8">
+                                <div class="round-card">
+                                    <!-- Header -->
+                                    <div class="row align-items-center round-header g-0">
+                                        <div class="col-5 col-lg-5 round-label"><span class="">
+                                SEMI-FINALS </span>
+                                        </div>
+                                        <div class="col-7 text-end"><span class="round-date">
+                                12 JAN - 18 JAN 2027 </span>
+                                        </div>
+                                    </div>
+                                    <!-- Match -->
+                                    <div class="row align-items-center match-row">
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    <img src="assets/team-1-logo.png" alt="Team 1" class="team-logo">
+                                                </div><span class="team-status through">
+                                    THROUGH </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="match-score">
+                                                2 - 1
+</div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    <img src="assets/team-1-logo.png" alt="Team 2" class="team-logo">
+                                                </div><span class="team-status knocked">
+                                    KNOCKED OUT </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- View All -->
+                                    <div class="row justify-content-center">
+                                        <div class="col-7 col-sm-6 col-md-5">
+                                            <div class="me-2 skewed-button-large">
+                                                <button class="btn skewable-large">VIEW ALL</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ======================================
+             FINAL
+        ======================================= -->
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-10 col-lg-8">
+                                <div class="round-card final-card">
+                                    <!-- Header -->
+                                    <div class="row align-items-center round-header g-0">
+                                        <div class="col-5 col-lg-5 round-label"><span class="">
+                                FINAL </span>
+                                        </div>
+                                        <div class="col-7 text-end"><span class="round-date">
+                                28 JAN 2027 </span>
+                                        </div>
+                                    </div>
+                                    <!-- Final Match -->
+                                    <div class="row align-items-center match-row final-match">
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    <img src="assets/team-1-logo.png" alt="Team 1" class="team-logo">
+                                                </div><span class="team-status through">
+                                    THROUGH </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="match-score">
+                                                2 - 1
+</div>
+                                        </div>
+                                        <div class="col-4 text-center">
+                                            <div class="team-wrap">
+                                                <div class="team-circle">
+                                                    <img src="assets/team-1-logo.png" alt="Team 2" class="team-logo">
+                                                </div><span class="team-status knocked">
+                                    KNOCKED OUT </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="footer-sec">
+            <div class="container-fluid footer-content">
+                <div class="row">
+                    <div class="col-1 col-sm-1"> 
+</div>
+                    <div class="col-10 col-lg-12 col-md-12 col-sm-10 pe-0 ps-0">
+                        <div class="navbar-footer">
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="https://www.sab.co.za/agegate?destination=terms-of-use" target="_blank">Rules of the house</a></h6>
+                            </div>
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="https://www.sab.co.za/agegate?destination=terms-of-use" target="_blank">terms of use</a></h6>
+                            </div>
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="https://www.sab.co.za/privacy-policy" target="_blank">privacy policy</a></h6>
+                            </div>
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="https://www.sab.co.za/cookie-policy" target="_blank">cookie policy</a></h6>
+                            </div>
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="#" target="_blank">terms & conditions</a></h6>
+                            </div>
+                            <div class="nav-item">
+                                <div class="vr"></div>
+                                <h6><a href="https://www.sab.co.za/agegate?destination=terms-of-use" target="_blank">Data subject request</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1 col-sm-1"> 
+</div>
+                </div>
+                <hr>
+                <div class="pb-4 row">
+                    <div class="col col-lg col-md col-sm"> 
+</div>
+                    <div class="col-10 col-lg-5 col-md-5 col-sm-10">
+                        <img src="assets/ara-line.png" alt="ara-line" class="ara"> 
+                    </div>
+                    <div class="col col-lg col-md col-sm"> 
+</div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="bg-color left"></div>                     
+                    <div class="center"></div>                     
+                    <div class="bg-color right"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="pgia/lib/pgia.js"></script>
+    </body>
+</html>
