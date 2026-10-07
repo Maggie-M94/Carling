@@ -1671,6 +1671,12 @@ span#player-name {
     line-height: 1;
 }
 
+#howtoPredict .modal-dialog {
+    margin: 18px auto;
+    max-width: 540px;
+    width: min(92vw, 540px);
+}
+
 /* BODY */
 .howto-modal .modal-body {
     padding: 18px 10px 28px;
@@ -1935,11 +1941,19 @@ span#player-name {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 2.6rem;
-    height: 2.6rem;
+    width: 2.1rem;
+    height: 2.1rem;
     color: #fff;
     font-size: 1.1rem;
     text-decoration: none;
+    padding: 0.25rem;
+}
+
+.pk-share a img {
+    display: block;
+    width: 1.1rem;
+    height: 1.1rem;
+    object-fit: contain;
 }
 
 .pk-share a + a {
@@ -2090,6 +2104,18 @@ span#player-name {
     height: 29%;
     padding: 2% 6% 6%;
     background: linear-gradient(180deg, #202a2f 0%, #10171b 100%);
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(
+        90deg,
+        rgba(125, 79, 34, 0) 0%,
+        rgba(125, 79, 34, 0.15) 10%,
+        rgba(217, 178, 106, 0.9) 35%,
+        rgba(241, 216, 155, 1) 50%,
+        rgba(217, 178, 106, 0.9) 65%,
+        rgba(125, 79, 34, 0.15) 90%,
+        rgba(125, 79, 34, 0) 100%
+    ) 1;
+    isolation: isolate;
     pointer-events: none;
 }
 
@@ -2099,17 +2125,21 @@ span#player-name {
     top: 0;
     left: 0;
     right: 0;
-    height: 0.7px;
+    z-index: 2;
+    display: block;
+    height: 0.05px;
+    opacity: 0.9;
     background: linear-gradient(
         90deg,
         rgba(125, 79, 34, 0) 0%,
-        rgba(125, 79, 34, 0.15) 10%,
-        rgba(217, 178, 106, 0.9) 35%,
+        rgba(125, 79, 34, 0.06) 10%,
+        rgba(217, 178, 106, 0.75) 35%,
         rgba(241, 216, 155, 1) 50%,
-        rgba(217, 178, 106, 0.9) 65%,
-        rgba(125, 79, 34, 0.15) 90%,
+        rgba(217, 178, 106, 0.75) 65%,
+        rgba(125, 79, 34, 0.06) 90%,
         rgba(125, 79, 34, 0) 100%
     );
+    box-shadow: 0 0 10px rgba(241, 216, 155, 0.55);
     /* box-shadow: 0 0 0 1px rgba(110, 80, 38, 0.15); */
 }
 
