@@ -312,6 +312,20 @@ p {
         background-position: center top !important;
     }
 
+    .mt-2.row > .col-12.col-md-12 {
+        width: 100%;
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mt-2.row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     #leaderboard-gold.field-container {
         background-image: url('assets/gold-field.svg ') !important;
         height: 80vh;
