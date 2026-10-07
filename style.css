@@ -170,6 +170,10 @@ p {
     flex-wrap: wrap;
 }
 
+.nav-item:first-child .vr {
+    display: none;
+}
+
 /* XS Mobile rules */
 @media only screen and (max-width:380px){
     .background-img {
@@ -418,7 +422,7 @@ a:hover {
 .nav-item a {
     color: #ffffff !important;
     font-family: "DINNextLTPro-BoldCondensed" !important;
-    text-transform: uppercase;
+    text-transform: none;
     text-decoration: none;
 }
 
