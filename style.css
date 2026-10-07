@@ -739,13 +739,6 @@ hr {
 }
 
 /* Logo */
-.energy {
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    mix-blend-mode: screen;
-}
-
 img.brand-logo {
     width: 15vh;
 }
